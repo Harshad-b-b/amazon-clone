@@ -15,7 +15,7 @@ export default function Home({ state, dispatch }) {
       <NavBar state={state} />
       <img className="amzbg" src={homeImg} alt="amazon-prime" />
       <div className="container">
-        <div className="col  -1">
+        <div className="col-1">
           {db.map((val, index) => {
             if (val.identifier === 2) {
               return (
