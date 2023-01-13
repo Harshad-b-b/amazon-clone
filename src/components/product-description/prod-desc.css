@@ -1,0 +1,38 @@
+.star-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.star{
+    color: #fcd53f;
+    font-size: 30px;
+}
+
+.rating-info{
+    opacity: 0.8;
+    margin-top: 8px;
+    margin-left: 5px;
+    font-size: 15px;
+    
+}
+
+.product-title{
+    margin-top: 30px;
+}
+
+.product-img{
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    max-height: 200px;
+}
+
+.btn{
+    margin: 20px 0;
+    margin-bottom: 40px;
+    padding: 3px 8px;
+    background-color: #fcd53f;
+    border: none;
+}
